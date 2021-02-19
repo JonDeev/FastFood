@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__left {
+    display: flex;
+    align-items: flex-start;
+    width: 60%;
+    min-height: 10px;
+    
+}
+
+.header__nav {
+    width: 30%;
+}
+.header__logo {
+    width: 10%;
+    display: flex;
+    
+    
+}
+
+.header__logo img {
+    width: 80%;
+    height: 49px;
+    
+}
+
+.Burger1, .Burger2, .Burger3, .Burger4, .Burger5, .Burger6  {
+    width:33%;
+}
+
+.search {
+    width: 40%;
+}

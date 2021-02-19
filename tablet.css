@@ -1,3 +1,12 @@
 .Burger1, .Burger2, .Burger3, .Burger4, .Burger5, .Burger6  {
     width:40%;
 }
+
+.header {
+
+}
+
+.header__logo img {
+    width: 25%;
+    height: 80px;
+}

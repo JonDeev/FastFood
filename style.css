@@ -35,8 +35,8 @@ html{
 }
 
 .header__logo  img{
-    width: 65%;
-    height: 170px;
+    width: 45%;
+    height: 110px;
     max-height: 180px;
 
 }
@@ -115,6 +115,9 @@ strong {
     justify-content: center;
     margin: 5px 0;
     cursor: pointer;
+    
+
+
 }
 
 .container-Burger figure {
@@ -123,18 +126,52 @@ strong {
 }
 
 .container-Burger img{
+    border-radius: 10px;
     width: 94%;
+    box-shadow: 7px 2px 2px 2px rgba(0, 0, 0, 0.10);
 }
 
 .container-Burger figure:hover {
-    background-color: #a2c7b9;
+    background-color: #de5f5f;
     box-shadow: 0px 100px 200px 0 rgb(128 98 96 / 29%);
 }
 
-@media (min-width:600px) {
+/* @media (min-width:600px) {
     .Burger1, .Burger2, .Burger3, .Burger4, .Burger5, .Burger6  {
         width:40%;
     }
-}
+} */
 
-@media (min-width: 900px)
+/* @media (min-width: 900px){
+    .header {
+        display: flex;
+        min-height: 30px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .header__left {
+        display: flex;
+        align-items: flex-start;
+        width: 60%;
+        min-height: 10px;
+        
+    }
+
+    .header__nav {
+        width: 30%;
+    }
+    .header__logo {
+        width: 10%;
+        display: flex;
+        
+        
+    }
+
+    .header__logo img {
+        width: 80%;
+        height: 49px;
+        
+    }
+} */
