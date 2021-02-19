@@ -20,7 +20,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;  
+    width: 100%; 
     justify-content: space-evenly;
     align-items: center;
 }
@@ -69,6 +69,16 @@ html{
     margin: 8px 0;
 }
 
+.header__nav-li li:hover{
+    background-color: rgb(182, 24, 39);
+    color: white;
+    border-radius: 20px;
+}
+
+.main {
+    background-color: #fafaf8;;;
+}
+
 .search::-webkit-input-placeholder {
     text-align: center;
     font-size: 20px;
@@ -94,9 +104,37 @@ strong {
 .container-Burger {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-Burger div{
-    width: 97%;
-    
+    /* width: 100%; */
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    cursor: pointer;
 }
+
+.container-Burger figure {
+    width: 94%;
+    border-radius: 40px;
+}
+
+.container-Burger img{
+    width: 94%;
+}
+
+.container-Burger figure:hover {
+    background-color: #a2c7b9;
+    box-shadow: 0px 100px 200px 0 rgb(128 98 96 / 29%);
+}
+
+@media (min-width:600px) {
+    .Burger1, .Burger2, .Burger3, .Burger4, .Burger5, .Burger6  {
+        width:40%;
+    }
+}
+
+@media (min-width: 900px)
